@@ -1,0 +1,9 @@
+#carouselEmpresa {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page - Projeto Integrador</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#">Atitude Esportes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselEmpresa" class="carousel slide container-fluid p-0" data-bs-ride="carousel" >
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <img src="img/nike-running-carousel.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Banner 1">
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <img src="img/nike-carousel.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Banner 2">
+        </div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <img src="img/nike-air-force-1-valentines-day.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Banner 3">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEmpresa" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselEmpresa" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section id="produtos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossos Produtos</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card shadow h-100">
+            <img src="img/tenis-nike-court-vision-mid.jpg" class="card-img-top p-3" alt="Serviço 1">
+            <div class="card-body">
+              <h5 class="card-title">Tenis Nike Court Vision Mid</h5>
+              <p class="card-text">Tenis Nike Court Vision Mid Preto, Branco e Vermelho</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card shadow h-100">
+            <img src="img/regata-branca.webp" class="card-img-top p-3" alt="Serviço 2">
+            <div class="card-body">
+              <h5 class="card-title">Regata Branca</h5>
+              <p class="card-text">Regata Branca com estampa colorida</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card shadow h-100">
+            <img src="img/pegasus39.jpg" class="card-img-top p-3" alt="Serviço 3">
+            <div class="card-body">
+              <h5 class="card-title">Tenis Nike Pegasus 39</h5>
+              <p class="card-text">Tenis de corrida Nike Pegasus 39 Preto, Branco</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Fale Conosco</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center p-4 mt-5">
+    <p class="mb-0">&copy; 2025 Atitude Esportes. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
